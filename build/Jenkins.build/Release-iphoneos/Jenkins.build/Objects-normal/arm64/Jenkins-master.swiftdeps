@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)"
+options: "d43c2e6ec525fee84803c457252f6484"
+build_time: [1624519216, 526633000]
+inputs:
+  "/Users/duhongxing/JenkinsTest/Jenkins/ViewController.swift": [9223372036, 854775807]
+  "/Users/duhongxing/JenkinsTest/Jenkins/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/duhongxing/JenkinsTest/Jenkins/SceneDelegate.swift": [9223372036, 854775807]
