@@ -11,19 +11,19 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://www.</string>
+					<string>https://github.com/duhongxing/JenkinsTest/blob/master/Jenkins.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>display-image</string>
 					<key>url</key>
-					<string>https://www.</string>
+					<string>https://github.com/duhongxing/JenkinsTest/blob/master/cat_57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
 					<string>full-size-image</string>
 					<key>url</key>
-					<string>https://www.</string>
+					<string>https://github.com/duhongxing/JenkinsTest/blob/master/cat_512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
