@@ -13,7 +13,7 @@ BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c "print CFBundleShortVersionStr
 echo ${BUNDLE_SHORT_VERSION}
 BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${PRO_INFOPLIST_PATH}")
 echo ${BUNDLE_VERSION}
-DATE=$(date "+%Y/%m/%d %H:%M:%S")
+DATE=$(date "+%Y %m %d %H:%M:%S")
 echo $DATE
 IPA_NAME="${APP_NAME}_V${BUNDLE_SHORT_VERSION}_${DATE}.ipa"
 echo $IPA_NAME
@@ -110,3 +110,9 @@ echo $(/usr/libexec/PlistBuddy -c "print CFBundleVersion" "${PRO_INFOPLIST_PATH}
 
 # /usr/bin/security cms -D -i 文件路径
 
+ROOT="$(pwd)"
+echo $ROOT
+
+set -x 
+echo $ROOT
+set +x
